@@ -1,0 +1,33 @@
+{
+	"name": "reciprocal",
+	"version": "1.0.0",
+	"description": "A simple web framework that converts JSON objects to html elements.",
+	"main": "reciprocal.js",
+	"type": "module",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ReciprocalJs/reciprocal.git"
+	},
+	"keywords": [
+		"framework",
+		"reciprocal",
+		"web",
+		"json",
+		"html"
+	],
+	"author": "squik",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ReciprocalJs/reciprocal/issues"
+	},
+	"homepage": "https://github.com/ReciprocalJs/reciprocal#readme",
+	"devDependencies": {
+		"@babel/plugin-transform-modules-commonjs": "^7.16.0"
+	},
+	"dependencies": {
+		"@babel/core": "^7.16.0"
+	}
+}

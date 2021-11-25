@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Chewy';
+	src: url('../fonts/Chewy/Chewy-Regular.ttf');
+}
+
+body {
+	background: black;
+	display: flex;
+	justify-content: center;
+}
+
+.title {
+	font-family: 'Chewy';
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	border: solid;
+	border-radius: 25px;
+	padding: 50px;
+}
