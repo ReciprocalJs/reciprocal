@@ -25,9 +25,7 @@
 	},
 	"homepage": "https://github.com/ReciprocalJs/reciprocal#readme",
 	"devDependencies": {
-		"@babel/plugin-transform-modules-commonjs": "^7.16.0"
-	},
-	"dependencies": {
-		"@babel/core": "^7.16.0"
+		"@babel/plugin-transform-modules-commonjs": "^7.16.0",
+		"jest": "^27.3.1"
 	}
 }
