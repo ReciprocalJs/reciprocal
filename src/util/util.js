@@ -5,11 +5,11 @@ export const setAttributes = (element, attributes) => {
 	});
 };
 
-export const appendChildren = (element, children, callback) => {
+export const appendChildren = (element, children, callback, components) => {
 	children.forEach((child) => {
 		if (typeof child === 'string') element.appendChild(document.createTextNode(child));
 		else {
-			callback(child).forEach((elem) => {
+			callback(child, components).forEach((elem) => {
 				element.appendChild(elem);
 			});
 		}

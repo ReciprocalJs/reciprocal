@@ -7,7 +7,7 @@ export function convert(json, components) {
 		if (components && tag in components) {
 			let component = components[tag];
 			let data = json[tag];
-			convert(new component(data).render(data)).forEach((elem) => elements.push(elem));
+			convert(new component(data).render(data), components).forEach((elem) => elements.push(elem));
 			continue;
 		}
 
@@ -17,7 +17,7 @@ export function convert(json, components) {
 		delete attributes.children;
 
 		setAttributes(element, attributes);
-		if (children) appendChildren(element, children, convert);
+		if (children) appendChildren(element, children, convert, components);
 
 		elements.push(element);
 	}

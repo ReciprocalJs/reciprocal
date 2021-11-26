@@ -1,6 +1,6 @@
 {
 	"name": "reciprocal",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "A simple web framework that converts JSON objects to html elements.",
 	"main": "reciprocal.js",
 	"type": "module",
