@@ -21,7 +21,7 @@ yarn add reciprocal
 ### 📚 **Sample Usage**
 
 ```js
-import { Reciprocal } from 'reciprocal';
+import { Reciprocal } from './node_modules/reciprocal/reciprocal.js'; // path is relative
 
 // Title component
 class Title {
@@ -48,12 +48,12 @@ class App {
 
 /* The first argument is the main app which will be rendered.
    The second argument is the list of components which will be used by the main app.*/
-Reciprocal.render(new App(), { Title });
+Reciprocal.render(new App().render(), { Title });
 // OR
 Reciprocal.renderClass(App, { Title });
 ```
 
-> Sample usage is also given in the `src` folder.
+> Sample usage is also given in the `sample` folder.
 
 ---
 
